@@ -1,7 +1,13 @@
-.topbar{
-    
+.text-white{
+    color: white;
 }
 
 .bg-blue{
     background-color: rgb(18, 15, 41);
+}
+
+
+
+p{
+    color: white;
 }
