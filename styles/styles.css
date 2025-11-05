@@ -1,37 +1,56 @@
-.text-white{
-    color: white;
+.text-white {
+  color: white;
 }
 
-.bg-blue{
-    background-color: rgb(18, 15, 41);
+.bg-blue {
+  background-color: rgb(18, 15, 41);
 }
 
-
-
-p{
-    color: white;
+p {
+  color: white;
 }
 
-.navbar-nav{
-    justify-content: baseline;
-    align-items:end;
-    margin-bottom: 0;
+.navbar-nav {
+  justify-content: baseline;
+  align-items: end;
+  margin-bottom: 0;
 }
 
-.reserve-box{
-    color: white;
-    border-style: solid;
-    border-width: 3px;
+.reserve-box {
+  color: white;
+  border-style: solid;
+  border-width: 3px;
 }
 
-.logo{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 10px;
+.logo {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 10px;
 }
 
-.nav-link{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-family: 'Dosis', serif;
+.nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Dosis", serif;
+}
+
+.splash-pic {
+  background-image: url(/assets/header.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.splash-container {
+  background-color: rgba(11, 12, 77, 0.462);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 50rem;
+  text-align: center;
+  margin: auto;
 }
