@@ -36,21 +36,56 @@ p {
 
 .splash-pic {
   background-image: url(/assets/header.jpg);
-  height: 100vh;
+  
   background-position: center;
   background-size: cover;
   align-items: center;
+  align-content: center;
   justify-content: center;
   display: flex;
 }
 
 .splash-container {
-  background-color: rgba(11, 12, 77, 0.462);
+  background-color: #000324c8;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20rem;
+  height: 12rem;
   width: 50rem;
   text-align: center;
-  margin: auto;
+  margin-bottom: 7rem;
+  margin-top: 10rem;
+  color: white;
+  font-family: "Dosis", serif;
+}
+
+.bottom-box {
+  background-color: white;
+  align-items: flex-end;
+  z-index: 1;
+  margin: 0;
+  display: flex;
+}
+
+.bg-white {
+  background-color: white;
+  display: flex;
+  
+}
+
+.awards-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 392.5px;
+    margin-right: 392.5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 13rem;
+    height: 200px;
+    
+
+}
+
+img{
+    height: auto;
 }
