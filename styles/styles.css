@@ -6,9 +6,7 @@
   background-color: rgb(18, 15, 41);
 }
 
-p {
-  color: white;
-}
+
 
 .navbar-nav {
   justify-content: baseline;
@@ -75,17 +73,44 @@ p {
 
 .awards-container{
     display: flex;
-    justify-content: center;
-    margin-left: 392.5px;
-    margin-right: 392.5px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+
     text-align: center;
     margin-top: 13rem;
-    height: 200px;
+    height: 416px;
     
+    margin-bottom: 10rem;
 
 }
 
-img{
-    height: auto;
+
+
+.award-header{
+  font-size: 34px;
+}
+
+
+p{
+  font-size: 16px;
+}
+
+.room-section{
+  background-image: url(/assets/bg2.jpg);
+  max-width: fit-content;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  object-fit: cover;
+  display: flex;
+}
+
+.rooms{
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
