@@ -117,15 +117,23 @@ p{
 .card{
   margin-left: .5rem;
   margin-right: .5rem;
-  object-fit: fill;
+  border-radius: 0%;
   display: flex;
   margin-bottom: 3rem;
 }
+.card-img-top{
+  display: flex;
+  object-fit: cover;
+
+  border-radius: 0;
+}
 
 .package-pic{
+
   height: 234px;
   width: 561px;
   display: grid;
+  
 
   
   
@@ -170,3 +178,88 @@ p{
   gap: 1.5rem;
   margin-top: 1rem;
 }
+
+.amenities-section{
+  background-image: url(/assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  margin-top: 3rem;
+  color: white;
+  font-family: 'Dosis', 'serif';
+}
+
+.amenity{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.amenities{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.amenity img{
+  height: 75px;
+  width: auto;
+  margin-bottom: 1.5rem;
+}
+
+.reserve-container{
+  background-image: url(/assets/hamsterreserve.jpg);
+  max-width:900px;
+  height: 450px;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  
+}
+.reserve{
+  background-color: rgb(22, 6, 50);
+  color: white;
+  font-family: 'Dosis', 'serif';
+  justify-content: center;
+  
+}
+
+.form-grid{
+  flex-direction: column;
+  display: flex;
+  
+  align-items: left;
+  justify-content: center;
+  margin-bottom: 3rem;
+  
+  
+  
+}
+.reserve-row{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.check-btn{
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.5rem;
+  background-color: rgb(45, 120, 219);
+  color: white;
+  font-family: 'Source Sans 3';
+  font-weight: 600;
+  
+  
+}
+
+
