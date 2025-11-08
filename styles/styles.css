@@ -76,13 +76,13 @@
     margin-left: auto;
     margin-right: auto;
   
-
+    justify-content: center;
     text-align: center;
     margin-top: 13rem;
     height: 416px;
     
-    margin-bottom: 10rem;
-
+    margin-bottom: 9rem;
+    justify-content: space-between;
 }
 
 
@@ -98,19 +98,75 @@ p{
 
 .room-section{
   background-image: url(/assets/bg2.jpg);
-  max-width: fit-content;
+  
   background-position: center;
   background-size: cover;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  text-align: center;
   display: flex;
-  object-fit: cover;
-  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Dosis', 'serif';
+  
 }
 
 .rooms{
-  justify-content: center;
   display: flex;
+  
+}
+
+.card{
+  margin-left: .5rem;
+  margin-right: .5rem;
+  object-fit: fill;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.package-pic{
+  height: 234px;
+  width: 561px;
+  display: grid;
+
+  
+  
+}
+
+.package-container{
+  display: grid;
+  font-family: 'Dosis', 'serif';
+
+  grid-template-rows: repeat(3, auto);
+  margin-top: 3rem;
+  
+  
+  margin-bottom: 3rem;
+  text-align: left;
+  margin: 0 auto;
+  gap: 3rem;
+  max-width: 1100px;
+}
+
+.package-text{
+ 
+  display: grid;
+  
+  
+  
+}
+
+.room-header{
+  font-size: 32px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.package-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  margin: 0 auto;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
