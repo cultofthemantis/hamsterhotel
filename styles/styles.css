@@ -41,6 +41,7 @@
   align-content: center;
   justify-content: center;
   display: flex;
+  margin-bottom: 5rem;
 }
 
 .splash-container {
@@ -106,7 +107,7 @@ p{
   flex-direction: row;
   color: white;
   font-family: 'Dosis', 'serif';
-  
+  margin-top: 5rem;
 }
 
 .rooms{
@@ -119,7 +120,9 @@ p{
   margin-right: .5rem;
   border-radius: 0%;
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+
 }
 .card-img-top{
   display: flex;
@@ -128,15 +131,17 @@ p{
   border-radius: 0;
 }
 
+li{
+  text-align: left;
+  align-items: end;
+  font-size: 14px;
+}
+
 .package-pic{
 
   height: 234px;
   width: 561px;
   display: grid;
-  
-
-  
-  
 }
 
 .package-container{
@@ -165,9 +170,10 @@ p{
 .room-header{
   font-size: 32px;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   justify-content: center;
   text-align: center;
+  font-family: 'Dosis', 'serif';
 }
 
 .package-row{
@@ -217,19 +223,22 @@ p{
 
 .reserve-container{
   background-image: url(/assets/hamsterreserve.jpg);
-  max-width:900px;
-  height: 450px;
+background-size: cover;
+  max-width:1000px;
+  height: 550px;
   justify-content: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  object-fit: cover;
+
   
 }
 .reserve{
   background-color: rgb(22, 6, 50);
-  color: white;
-  font-family: 'Dosis', 'serif';
+  color: #E5FEFF;
+  font-family: 'Source Sans 3';
   justify-content: center;
-  
+  font-size: 14px;
 }
 
 .form-grid{
@@ -258,8 +267,58 @@ p{
   color: white;
   font-family: 'Source Sans 3';
   font-weight: 600;
-  
-  
 }
 
+.footer{
+  background-color: #000324;
+  justify-content: center;
+  
+  flex-direction: column;
+  align-items: center;
+  
+  height:300px;
+}
 
+.footer img{
+  height: 100px;
+  width: 143px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.footer h6{
+  
+  font-size: 10px;
+  font-family: 'Source Sans 3';
+  
+  color: #E5FEFF;
+}
+
+.btn-primary{
+justify-content: left;
+border-radius: 0;
+width: 125px;
+font-family: 'Source Sans 3';
+font-weight:bolder;
+text-align: center;
+font-size: 20px;
+height: 40px;
+background-color: #004CC7;
+
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text{
+  font-family: 'Source Sans 3';
+  font-weight: bold;
+  text-align: left;
+  font-size: 14px;
+}
+
+.card-title{
+  text-align: left;
+}
