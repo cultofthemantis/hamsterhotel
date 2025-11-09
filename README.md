@@ -8,4 +8,4 @@
 
 
 
-// Gavin - 
+// Gavin - Everything for the desktop version looks great looks almost identical to the example although it doesn't have responsiveness for mobile or tablet it still looks great.
